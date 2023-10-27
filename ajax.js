@@ -4,6 +4,7 @@ const Rating_container=document.getElementById("Rating");
 const id2= document.getElementById("check error");
 const xhr =new XMLHttpRequest();
 const button= document.getElementById("button");
+
 button.onclick =function(){
 	const inputvalue=document.getElementById("movie-search").value;
 	xhr.open("Get","https://www.omdbapi.com/?t="+inputvalue+"&apikey=a9b840b2");
